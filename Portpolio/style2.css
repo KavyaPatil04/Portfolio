@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.sidebar
+{
+    position: absolute;
+    background-color: rgb(197, 188, 188);
+    font-family: "Roboto", sans-serif;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+}
+.sidebar nav
+{
+    padding: 10px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.main
+{
+    /*background-color: yellow;*/
+    width: 90vw;
+
+}
+.container
+{
+    display: flex;
+}
+.Infocontainer
+{
+    /*background-color: rgb(64, 128, 0);*/
+    height: 60vh;
+    width: 50vw;
+    margin: 150px auto;
+    display: flex;
+    justify-content:space-around;
+    margin-left: 400px;
+}
+.devInfo{
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Fjalla One", sans-serif;
+    
+}
+.devPicture img
+{
+    height: 50vh;
+    border-radius: 50%;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.Hello{
+    font-size: 3em;
+    font-family: "Roboto", sans-serif;
+}
+.name{
+    font-size: 3em;
+    font-weight: bold;
+    font-family: "Fjalla One", sans-serif;
+}
+.about{
+    font-size: 2.5em;
+    font-family:"Roboto", sans-serif ;
+}
+.button
+{
+   margin-top: 34px;
+   font-size: 6px;
+}
+.btn{
+    padding:9px 14px ;
+    border-radius: 22px;
+    color: white;
+    background-color: rgb(43, 141, 226);
+    font-size: 2em;
+    font-weight: bold;
+    margin: 3px 3px;
+    cursor: pointer;
+}
+.btn-sm
+{
+    font-size: 14px;
+    padding: 10px 19px;
+    margin: 12px 0px;
+}
+.btn:hover
+{
+    color:blue;
+    background-color: white;
+}
+.contactform{
+    padding: 0 34px;
+    font-family: "Fjalla One", sans-serif;
+    margin: 50px 150px;
+    
+}
+#emailHelp{
+    font-size: 10px;
+    color: midnightblue;
+    margin: 0 5px;
+
+}
+.contactform form div{
+   /* padding: 10px 0 ;*/
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div input{
+    /*width: 26vw;*/
+    border-radius: 5px;
+    margin:6px 0 0 0;
+    margin: 3px;
+
+}
+.contactform form{
+  margin: 0px 40px;  
+}
+.contactform h1{
+    font-family: "Fjalla One", sans-serif;
+    padding: 12px 0;
+}
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+}
+.projectcontainer{
+    margin: 88px 150px;
+}
+.projecttitle
+{
+    margin: 20px;
+    font-family:"Fjalla One", sans-serif ;
+}
+ h1
+{
+    font-family:"Roboto", sans-serif ;
+    margin: 23px;
+}
+ h2{
+    text-decoration: underline;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+}
+.intro, .contactform, .projectcontainer{
+    margin: 50px 150px;
+}
+.intro h2{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 12px;
+}
+.intro p{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 12px;
+}
+.skillcontainer
+{
+    margin: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.sidebarGo
+{
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+.hamberger
+{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.ham{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.cross
+{
+    margin-left: 105px;
+    margin-top: 3px;
+}
+.add-icon, .add-icon2, .add-icon3
+{
+    display: flex;
+}
+ 
+.add-icon i, .add-icon2 i, .add-icon3 i{
+    margin-left: 10px;
+    margin-top: 1px;
+}
+.add-icon p, .add-icon2 p, .add-icon3 p{
+    margin-top: 1px;
+}
+
+
+
+
+
+
+
+
+
